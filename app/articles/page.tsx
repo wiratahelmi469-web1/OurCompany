@@ -1,59 +1,32 @@
-import Link from "next/link";
 import PageHero from "../components/PageHero";
 
-const articles = [
-  {
-    title: "Tips Merawat Monstera",
-    date: "10 Agustus 2026",
-    description:
-      "Pelajari cara merawat Monstera agar tetap sehat dan tumbuh subur.",
-  },
-  {
-    title: "5 Tanaman Indoor Terbaik",
-    date: "5 Agustus 2026",
-    description: "Rekomendasi tanaman indoor yang cocok untuk rumah minimalis.",
-  },
-  {
-    title: "Cara Memilih Pot Tanaman",
-    date: "1 Agustus 2026",
-    description: "Panduan memilih pot yang sesuai dengan jenis tanaman Anda.",
-  },
-];
+import FeaturedArticle from "../components/articles/FeaturedArticle";
+import LatestArticles from "../components/articles/LatestArticles";
+import Categories from "../components/articles/Categories";
+import Newsletter from "../components/articles/Newsletter";
+import FAQ from "../components/articles/FAQ";
+import CTA from "../components/articles/CTA";
 
 export default function ArticlesPage() {
   return (
     <>
       <PageHero
         title="Articles"
-        subtitle="Plant care tips, news, and inspiration."
-        image="/images/banners/articles.jpg"
+        subtitle="Explore articles, tips, and inspiration from BioPlant Project."
+        image="/images/articles/hero.jpg"
       />
 
-      <section className="mx-auto max-w-7xl px-6 py-24">
-        <div className="grid gap-8 lg:grid-cols-3">
-          {articles.map((article) => (
-            <article
-              key={article.title}
-              className="rounded-3xl border bg-white p-8 shadow-sm transition hover:shadow-xl"
-            >
-              <p className="text-sm text-green-700">{article.date}</p>
+      <FeaturedArticle />
 
-              <h2 className="mt-3 text-2xl font-bold">{article.title}</h2>
+      <LatestArticles />
 
-              <p className="mt-4 text-gray-600 leading-7">
-                {article.description}
-              </p>
+      <Categories />
 
-              <Link
-                href="#"
-                className="mt-6 inline-block font-semibold text-green-700 hover:underline"
-              >
-                Read More →
-              </Link>
-            </article>
-          ))}
-        </div>
-      </section>
+      <Newsletter />
+
+      <FAQ />
+
+      <CTA />
     </>
   );
 }

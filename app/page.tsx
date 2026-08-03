@@ -1,11 +1,17 @@
 import Hero from "./components/home/HeroSection";
-import QuickMenu from "./components/home/QuickMenu";
+import AboutSection from "./components/home/AboutSection";
+import ProductSection from "./components/home/ProductSection";
+import ServiceSection from "./components/home/ServiceSection";
+import GallerySection from "./components/home/GallerySection";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <QuickMenu />
+      <AboutSection />
+      <ProductSection />
+      <ServiceSection />
+      <GallerySection />
     </>
   );
 }

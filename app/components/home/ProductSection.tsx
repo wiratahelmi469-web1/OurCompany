@@ -17,7 +17,7 @@ const products = [
   {
     title: "Pots & Accessories",
     description: "Pot, media tanam, dan aksesoris pendukung tanaman.",
-    image: "/images/products/accessories.jpg",
+    image: "/images/products/pot.jpg",
   },
 ];
 

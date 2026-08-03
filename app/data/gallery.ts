@@ -1,5 +1,5 @@
 export const featuredGallery = [
-  "/images/gallery/featured.avif",
+  "/images/gallery/featured.jpg",
 ];
 
 export const plantCollection = [

@@ -1,27 +1,31 @@
 export const services = [
   {
-    title: "Plant Consultation",
-    description:
-      "Konsultasi untuk memilih tanaman yang tepat sesuai kebutuhan rumah, kantor, maupun area komersial.",
-    image: "/images/services/consultation.jpg",
-  },
-  {
     title: "Landscape Design",
     description:
-      "Perencanaan dan desain taman yang estetis, fungsional, dan sesuai karakter lingkungan Anda.",
+      "Layanan desain taman dan area hijau yang estetik sesuai kebutuhan.",
     image: "/images/services/landscape.jpg",
+    link: "https://tamanify.com/tanaman-untuk-taman-minimalis/",
+  },
+  {
+    title: "Plant Consultation",
+    description:
+      "Konsultasi pemilihan tanaman terbaik untuk rumah maupun kantor.",
+    image: "/images/services/consultation.jpg",
+    link: "https://www.plantersam.com/services/plant-consultation",
   },
   {
     title: "Plant Maintenance",
     description:
-      "Perawatan rutin mulai dari penyiraman, pemangkasan, pemupukan hingga pengendalian hama.",
-    image: "/images/services/maintenance.jpg",
+      "Perawatan tanaman secara berkala agar tetap sehat dan indah.",
+    image: "/images/services/maintenance.webp",
+    link: "https://readmore.id/tanaman/standar-pemeliharaan-tanaman",
   },
   {
-    title: "Plant Delivery",
+    title: "Plant Installation",
     description:
-      "Layanan pengiriman tanaman dengan packing aman sehingga tanaman tetap segar saat diterima.",
-    image: "/images/services/delivery.jpg",
+      "Pemasangan tanaman dan dekorasi hijau secara profesional.",
+    image: "/images/services/installation.jpg",
+    link: "https://www.greenlandscapeindonesia.com/",
   },
 ];
 

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import Link from "next/link";
 
 import { services } from "@/app/data/services";
 
@@ -40,6 +39,8 @@ export default function OurServices() {
               className="group overflow-hidden rounded-3xl bg-[#132A22] shadow-xl transition duration-300 hover:-translate-y-2"
             >
 
+              {/* Image */}
+
               <div className="relative h-72 overflow-hidden">
 
                 <Image
@@ -53,6 +54,8 @@ export default function OurServices() {
 
               </div>
 
+              {/* Content */}
+
               <div className="p-8">
 
                 <h3 className="text-2xl font-bold text-white">
@@ -63,15 +66,27 @@ export default function OurServices() {
                   {service.description}
                 </p>
 
-                <Link
-                  href="/contact"
-                  className="mt-8 inline-flex items-center gap-2 font-semibold text-green-400 transition hover:gap-4"
+                <a
+                  href={service.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                    mt-8
+                    inline-flex
+                    items-center
+                    gap-2
+                    font-semibold
+                    text-green-400
+                    transition-all
+                    duration-300
+                    hover:gap-4
+                  "
                 >
-                  Consultation
+                  Learn More
 
                   <ArrowRight size={18} />
 
-                </Link>
+                </a>
 
               </div>
 

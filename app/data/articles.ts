@@ -1,48 +1,55 @@
 export const featuredArticle = {
   title: "5 Tips Merawat Tanaman Hias Agar Tetap Sehat",
   category: "Plant Care",
-  image: "/images/articles/featured.jpg",
+  image: "/images/articles/featured.webp",
   date: "August 2026",
   description:
     "Pelajari langkah-langkah sederhana agar tanaman hias tetap sehat, subur, dan tampil cantik sepanjang tahun.",
+  link: "https://www.idntimes.com/life/inspiration/5-cara-merawat-tanaman-hias-agar-tetap-sehat-dan-cantik-01-wdszh-pht3wd",
 };
 
 export const latestArticles = [
   {
-    title: "Cara Memilih Tanaman Indoor",
-    category: "Indoor Plants",
-    image: "/images/articles/article1.jpg",
-    date: "02 Aug 2026",
-  },
-  {
-    title: "Inspirasi Taman Minimalis",
-    category: "Landscape",
-    image: "/images/articles/article2.jpg",
-    date: "30 Jul 2026",
-  },
-  {
-    title: "Panduan Menyiram Tanaman",
+    title: "5 Cara Merawat Tanaman Hias Agar Tetap Sehat",
     category: "Plant Care",
+    date: "10 Agustus 2026",
+    image: "/images/articles/article1.webp",
+    link: "https://www.idntimes.com/life/inspiration/5-cara-merawat-tanaman-hias-agar-tetap-sehat-dan-cantik-01-wdszh-pht3wd",
+  },
+  {
+    title: "Tips Memilih Tanaman Indoor",
+    category: "Indoor Plant",
+    date: "8 Agustus 2026",
+    image: "/images/articles/article2.jpg",
+    link: "https://www.pinhome.id/blog/memilih-tanaman-hias-indoor-yang-tepat/",
+  },
+  {
+    title: "Inspirasi Landscape Rumah",
+    category: "Landscape",
+    date: "5 Agustus 2026",
     image: "/images/articles/article3.jpg",
-    date: "27 Jul 2026",
+    link: "https://www.rumah123.com/panduan-properti/landscape-taman-minimalis/i",
   },
   {
-    title: "Tanaman Hias untuk Kantor",
-    category: "Office",
+    title: "Cara Menyiram Tanaman yang Benar",
+    category: "Plant Care",
+    date: "2 Agustus 2026",
     image: "/images/articles/article4.jpg",
-    date: "20 Jul 2026",
+    link: "https://urbantani.id/tani-daily/cara-menyiram-tanaman-yang-baik-dan-benar-panduan-lengkap-untuk-pemula/",
   },
   {
-    title: "Media Tanam Terbaik",
-    category: "Tips",
+    title: "Tanaman Hias untuk Ruang Tamu",
+    category: "Indoor Plant",
+    date: "30 Juli 2026",
     image: "/images/articles/article5.jpg",
-    date: "15 Jul 2026",
+    link: "https://www.rumah123.com/panduan-properti/tanaman-hias-ruang-tamu/",
   },
   {
-    title: "Kesalahan Merawat Tanaman",
-    category: "Education",
+    title: "Panduan Pemupukan Tanaman Hias",
+    category: "Plant Care",
+    date: "27 Juli 2026",
     image: "/images/articles/article6.jpg",
-    date: "10 Jul 2026",
+    link: "https://www.scribd.com/document/709128608/bab-6-7",
   },
 ];
 

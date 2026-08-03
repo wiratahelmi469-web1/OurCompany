@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { ArrowRight, CalendarDays } from "lucide-react";
 
 import { featuredArticle } from "@/app/data/articles";
@@ -8,11 +7,9 @@ export default function FeaturedArticle() {
   return (
     <section className="bg-[#081C15] py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6">
-
         {/* Heading */}
 
         <div className="mx-auto mb-16 max-w-3xl text-center">
-
           <span className="text-sm font-semibold uppercase tracking-[5px] text-green-400">
             Featured Article
           </span>
@@ -25,7 +22,6 @@ export default function FeaturedArticle() {
             Artikel pilihan dari BioPlant Project yang berisi tips,
             inspirasi, dan edukasi seputar tanaman hias.
           </p>
-
         </div>
 
         {/* Featured Card */}
@@ -35,7 +31,6 @@ export default function FeaturedArticle() {
           {/* Image */}
 
           <div className="group overflow-hidden rounded-3xl">
-
             <Image
               src={featuredArticle.image}
               alt={featuredArticle.title}
@@ -43,23 +38,18 @@ export default function FeaturedArticle() {
               height={650}
               className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
             />
-
           </div>
 
           {/* Content */}
 
           <div>
-
             <span className="rounded-full bg-green-600/20 px-4 py-2 text-sm font-semibold text-green-300">
               {featuredArticle.category}
             </span>
 
             <div className="mt-6 flex items-center gap-3 text-gray-400">
-
               <CalendarDays size={18} />
-
               <span>{featuredArticle.date}</span>
-
             </div>
 
             <h3 className="mt-6 text-4xl font-bold leading-tight text-white">
@@ -70,8 +60,10 @@ export default function FeaturedArticle() {
               {featuredArticle.description}
             </p>
 
-            <Link
-              href="/articles"
+            <a
+              href={featuredArticle.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="
                 mt-10
                 inline-flex
@@ -90,15 +82,11 @@ export default function FeaturedArticle() {
               "
             >
               Read Article
-
               <ArrowRight size={18} />
-
-            </Link>
-
+            </a>
           </div>
 
         </div>
-
       </div>
     </section>
   );

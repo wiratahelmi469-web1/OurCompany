@@ -6,18 +6,18 @@ import FadeUp from "../animation/FadeUp";
 const products = [
   {
     title: "Indoor Plants",
-    description: "Tanaman hias yang cocok untuk mempercantik ruangan.",
-    image: "/images/products/indoor.jpg",
+    description: "Tanaman Indoor Tanaman hias berkualitas untuk menciptakan suasana ruangan yang lebih segar, nyaman, dan elegan.",
+    image: "/images/products/indoor.jpeg",
   },
   {
     title: "Outdoor Plants",
-    description: "Pilihan tanaman untuk taman dan area outdoor.",
-    image: "/images/products/outdoor.jpg",
+    description: "Tanaman Outdoor Beragam tanaman outdoor pilihan untuk mempercantik taman, halaman, dan area komersial Anda.",
+    image: "/images/products/outdoor.jpeg",
   },
   {
-    title: "Pots & Accessories",
-    description: "Pot, media tanam, dan aksesoris pendukung tanaman.",
-    image: "/images/products/pot.jpg",
+    title: "Tanaman Kamboja Fosil & pule",
+    description: "Koleksi Kamboja Fosil dan Pule berkualitas dengan bentuk unik untuk taman yang lebih berkarakter.",
+    image: "/images/products/kamboja&pule.jpeg",
   },
 ];
 

@@ -21,7 +21,7 @@ export const categories = [
 
 export const featuredProducts = [
   {
-    name: "Monstera Deliciosa",
+    name: "Monstera",
     category: "Tanaman Indoor",
     image: "/images/products/monstera.jpeg",
     description:

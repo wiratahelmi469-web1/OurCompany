@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+
 import { categories } from "@/app/data/products";
 
 export default function Categories() {
@@ -26,8 +27,22 @@ export default function Categories() {
         {/* Cards */}
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
           {categories.map((category) => (
-            <Link href="/products" key={category.title} className="group">
-              <div className="overflow-hidden rounded-3xl bg-[#132A22] shadow-xl transition duration-300 hover:-translate-y-2 hover:shadow-green-900/30">
+            <Link
+              href="/products"
+              key={category.title}
+              className="group h-full"
+            >
+              <div
+                className="
+                  flex h-full flex-col
+                  overflow-hidden rounded-3xl
+                  bg-[#132A22]
+                  shadow-xl
+                  transition duration-300
+                  hover:-translate-y-2
+                  hover:shadow-green-900/30
+                "
+              >
                 {/* Image */}
                 <div className="relative h-80 overflow-hidden">
                   <Image
@@ -41,16 +56,16 @@ export default function Categories() {
                 </div>
 
                 {/* Content */}
-                <div className="p-8">
+                <div className="flex flex-1 flex-col p-8">
                   <h3 className="text-2xl font-bold text-white">
                     {category.title}
                   </h3>
 
-                  <p className="mt-4 leading-7 text-gray-300">
+                  <p className="mt-4 flex-1 leading-7 text-gray-300">
                     {category.description}
                   </p>
 
-                  <div className="mt-8 flex items-center gap-2 font-semibold text-green-400 transition-all group-hover:gap-4">
+                  <div className="mt-8 inline-flex items-center gap-2 font-semibold text-green-400 transition-all duration-300 group-hover:gap-4">
                     Jelajahi Koleksi
                     <ArrowRight size={18} />
                   </div>

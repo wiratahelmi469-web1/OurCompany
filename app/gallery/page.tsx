@@ -1,9 +1,9 @@
 import PageHero from "../components/PageHero";
 
 // import FeaturedGallery from "../components/gallery/FeaturedGallery";
-import PlantCollection from "../components/gallery/PlantCollection";
+// import PlantCollection from "../components/gallery/PlantCollection";
 import ProjectGallery from "../components/gallery/ProjectGallery";
-import NurseryGallery from "../components/gallery/NurseryGallery";
+// import NurseryGallery from "../components/gallery/NurseryGallery";
 import FAQ from "../components/gallery/FAQ";
 import CTA from "../components/gallery/CTA";
 
@@ -18,11 +18,11 @@ export default function GalleryPage() {
 
       {/* <FeaturedGallery /> */}
 
-      <PlantCollection />
+      {/* <PlantCollection /> */}
 
       <ProjectGallery />
 
-      <NurseryGallery />
+      {/* <NurseryGallery /> */}
 
       <FAQ />
 

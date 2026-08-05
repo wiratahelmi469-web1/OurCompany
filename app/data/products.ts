@@ -1,19 +1,21 @@
 export const categories = [
   {
     title: "Tanaman Indoor",
-    description: "Tanaman hias indah yang cocok untuk ruang indoor Anda.",
-    image: "/images/products/indoor.jpg",
+    description:
+      "Tanaman hias berkualitas untuk menciptakan suasana ruangan yang lebih segar, nyaman, dan elegan.",
+    image: "/images/products/indoor.jpeg",
   },
   {
     title: "Tanaman Outdoor",
     description:
-      "Tanaman segar untuk mempercantik taman dan area luar ruangan.",
-    image: "/images/products/outdoor.jpg",
+      "Beragam tanaman outdoor pilihan untuk mempercantik taman, halaman, dan area komersial Anda.",
+    image: "/images/products/outdoor.jpeg",
   },
   {
-    title: "Tanaman Koleksi",
-    description: "Pot, pupuk, dan semua kebutuhan tanaman Anda.",
-    image: "/images/products/pot.jpg",
+    title: "Tanaman Kamboja Fosil & Pule",
+    description:
+      "Koleksi Kamboja Fosil dan Pule berkualitas dengan bentuk unik untuk taman yang lebih berkarakter.",
+    image: "/images/products/kamboja&pule.jpeg",
   },
 ];
 

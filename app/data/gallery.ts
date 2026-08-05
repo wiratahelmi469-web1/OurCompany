@@ -52,6 +52,18 @@ export const projectGallery = [
       "Desain area hijau untuk cafe agar menciptakan suasana yang nyaman dan estetik.",
     image: "/images/gallery/project3.jpg",
   },
+  {
+    title: "Taman Minimalis Perumahan",
+    description:
+      "Perancangan dan pembangunan taman minimalis dengan kombinasi tanaman hias serta rumput yang cocok untuk area hunian modern.",
+    image: "/images/gallery/project4.jpg",
+  },
+  {
+    title: "Perawatan Taman Hotel",
+    description:
+      "Layanan maintenance taman meliputi pemangkasan, pemupukan, penyiraman, dan penggantian tanaman agar area hotel tetap hijau dan terawat.",
+    image: "/images/gallery/project5.jpg",
+  },
 ];
 
 export const nurseryGallery = [
@@ -67,6 +79,7 @@ export const nurseryGallery = [
     title: "Perawatan Tanaman",
     image: "/images/gallery/nursery3.jpg",
   },
+  
 ];
 
 export const galleryFaq = [

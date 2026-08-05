@@ -2,17 +2,17 @@ export const services = [
   {
     title: "Garden Build",
     subtitle: "Vertical Garden & Landscape",
-    image: "/images/services/garden-build.jpg",
+    image: "/images/services/gardenbuild.jpeg",
   },
   {
     title: "Maintenance",
     subtitle: "Perawatan Taman & Tanaman",
-    image: "/images/services/maintenance.jpg",
+    image: "/images/services/maintenance.jpeg",
   },
   {
     title: "Supplies",
     subtitle: "Penyediaan Tanaman & Perlengkapan",
-    image: "/images/services/supplies.jpg",
+    image: "/images/services/supplies.jpeg",
   },
 ];
 

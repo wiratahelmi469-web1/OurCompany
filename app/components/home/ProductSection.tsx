@@ -6,17 +6,20 @@ import FadeUp from "../animation/FadeUp";
 const products = [
   {
     title: "Indoor Plants",
-    description: "Tanaman Indoor Tanaman hias berkualitas untuk menciptakan suasana ruangan yang lebih segar, nyaman, dan elegan.",
+    description:
+      "Tanaman Indoor Tanaman hias berkualitas untuk menciptakan suasana ruangan yang lebih segar, nyaman, dan elegan.",
     image: "/images/products/indoor.jpeg",
   },
   {
     title: "Outdoor Plants",
-    description: "Tanaman Outdoor Beragam tanaman outdoor pilihan untuk mempercantik taman, halaman, dan area komersial Anda.",
+    description:
+      "Tanaman Outdoor Beragam tanaman outdoor pilihan untuk mempercantik taman, halaman, dan area komersial Anda.",
     image: "/images/products/outdoor.jpeg",
   },
   {
     title: "Tanaman Kamboja Fosil & pule",
-    description: "Koleksi Kamboja Fosil dan Pule berkualitas dengan bentuk unik untuk taman yang lebih berkarakter.",
+    description:
+      "Koleksi Kamboja Fosil dan Pule berkualitas dengan bentuk unik untuk taman yang lebih berkarakter.",
     image: "/images/products/kamboja&pule.jpeg",
   },
 ];
@@ -47,7 +50,8 @@ export default function ProductSection() {
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
           {products.map((product, idx) => (
             <FadeUp key={product.title} delay={0.06 * idx}>
-              <div className="group overflow-hidden rounded-3xl bg-[#132A22] shadow-xl">
+              <div className="group flex h-full flex-col overflow-hidden rounded-3xl bg-[#132A22] shadow-xl">
+                {/* Image */}
                 <div className="relative h-80 overflow-hidden">
                   <Image
                     src={product.image}
@@ -59,12 +63,13 @@ export default function ProductSection() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
                 </div>
 
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-white">
+                {/* Content */}
+                <div className="flex flex-1 flex-col p-8">
+                  <h3 className="min-h-[72px] text-2xl font-bold leading-tight text-white">
                     {product.title}
                   </h3>
 
-                  <p className="mt-4 leading-7 text-gray-300">
+                  <p className="mt-4 flex-1 leading-7 text-gray-300">
                     {product.description}
                   </p>
 

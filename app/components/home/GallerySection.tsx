@@ -37,7 +37,7 @@ export default function GallerySection() {
         <FadeUp delay={0.12}>
           <div className="group relative overflow-hidden rounded-3xl">
             <Image
-              src="/images/gallery/hero.jpg"
+              src="/images/gallery/hero1.jpeg"
               alt="Gallery"
               width={1600}
               height={900}

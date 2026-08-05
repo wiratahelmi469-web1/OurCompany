@@ -1,6 +1,6 @@
 import PageHero from "../components/PageHero";
 
-import FeaturedGallery from "../components/gallery/FeaturedGallery";
+// import FeaturedGallery from "../components/gallery/FeaturedGallery";
 import PlantCollection from "../components/gallery/PlantCollection";
 import ProjectGallery from "../components/gallery/ProjectGallery";
 import NurseryGallery from "../components/gallery/NurseryGallery";
@@ -16,7 +16,7 @@ export default function GalleryPage() {
         image="/images/gallery/hero.jpg"
       />
 
-      <FeaturedGallery />
+      {/* <FeaturedGallery /> */}
 
       <PlantCollection />
 

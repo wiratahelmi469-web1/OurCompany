@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
 
 import { services } from "@/app/data/services";
 
@@ -8,7 +7,6 @@ export default function OurServices() {
     <section className="bg-[#0B221A] py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6">
         {/* Heading */}
-
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <span className="text-sm font-semibold uppercase tracking-[5px] text-green-400">
             Layanan Kami
@@ -19,23 +17,21 @@ export default function OurServices() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Kami menyediakan berbagai layanan profesional mulai dari konsultasi,
-            desain landscape, hingga perawatan tanaman agar tetap sehat dan
-            indah.
+            Kami menyediakan layanan profesional mulai dari pembangunan taman,
+            perawatan tanaman, hingga penyediaan berbagai kebutuhan tanaman
+            berkualitas.
           </p>
         </div>
 
         {/* Cards */}
-
-        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <div
               key={service.title}
               className="group overflow-hidden rounded-3xl bg-[#132A22] shadow-xl transition duration-300 hover:-translate-y-2"
             >
               {/* Image */}
-
-              <div className="relative h-72 overflow-hidden">
+              <div className="relative h-80 overflow-hidden">
                 <Image
                   src={service.image}
                   alt={service.title}
@@ -47,35 +43,14 @@ export default function OurServices() {
               </div>
 
               {/* Content */}
-
-              <div className="p-8">
+              <div className="p-8 text-center">
                 <h3 className="text-2xl font-bold text-white">
                   {service.title}
                 </h3>
 
-                <p className="mt-4 leading-7 text-gray-300">
-                  {service.description}
+                <p className="mt-3 text-base text-gray-300">
+                  {service.subtitle}
                 </p>
-
-                <a
-                  href={service.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="
-                    mt-8
-                    inline-flex
-                    items-center
-                    gap-2
-                    font-semibold
-                    text-green-400
-                    transition-all
-                    duration-300
-                    hover:gap-4
-                  "
-                >
-                  Pelajari Lebih Lanjut
-                  <ArrowRight size={18} />
-                </a>
               </div>
             </div>
           ))}

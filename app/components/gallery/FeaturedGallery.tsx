@@ -17,8 +17,8 @@ export default function FeaturedGallery() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Jelajahi koleksi tanaman hias, proyek landscape, dan suasana nursery
-            BioPlant Project melalui galeri pilihan kami.
+            Jelajahi koleksi tanaman hias, proyek landscape, dan suasana
+            nursery BioPlant Project melalui galeri pilihan kami.
           </p>
         </div>
 
@@ -28,7 +28,10 @@ export default function FeaturedGallery() {
             <Image
               src="/images/gallery/featured.jpg"
               alt="Galeri Unggulan"
-              className="object-cover transition duration-700 group-hover:scale-105"
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
 
             {/* Overlay */}

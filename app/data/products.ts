@@ -11,7 +11,7 @@ export const categories = [
     image: "/images/products/outdoor.jpg",
   },
   {
-    title: "Aksesoris Tanaman",
+    title: "Tanaman Koleksi",
     description: "Pot, pupuk, dan semua kebutuhan tanaman Anda.",
     image: "/images/products/pot.jpg",
   },

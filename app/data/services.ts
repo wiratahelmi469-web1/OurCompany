@@ -1,29 +1,18 @@
 export const services = [
   {
-    title: "Desain Landscape",
-    description:
-      "Layanan desain taman dan area hijau yang estetik sesuai kebutuhan.",
-    image: "/images/services/landscape.jpg",
-    link: "https://tamanify.com/tanaman-untuk-taman-minimalis/",
+    title: "Garden Build",
+    subtitle: "Vertical Garden & Landscape",
+    image: "/images/services/garden-build.jpg",
   },
   {
-    title: "Konsultasi Tanaman",
-    description:
-      "Konsultasi pemilihan tanaman terbaik untuk rumah maupun kantor.",
-    image: "/images/services/consultation.jpg",
-    link: "https://www.plantersam.com/services/plant-consultation",
+    title: "Maintenance",
+    subtitle: "Perawatan Taman & Tanaman",
+    image: "/images/services/maintenance.jpg",
   },
   {
-    title: "Perawatan Tanaman",
-    description: "Perawatan tanaman secara berkala agar tetap sehat dan indah.",
-    image: "/images/services/maintenance.webp",
-    link: "https://readmore.id/tanaman/standar-pemeliharaan-tanaman",
-  },
-  {
-    title: "Pemasangan Tanaman",
-    description: "Pemasangan tanaman dan dekorasi hijau secara profesional.",
-    image: "/images/services/installation.jpg",
-    link: "https://www.greenlandscapeindonesia.com/",
+    title: "Supplies",
+    subtitle: "Penyediaan Tanaman & Perlengkapan",
+    image: "/images/services/supplies.jpg",
   },
 ];
 

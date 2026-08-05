@@ -4,9 +4,9 @@ import { ArrowRight } from "lucide-react";
 import FadeUp from "../animation/FadeUp";
 
 const gallery = [
-  "/images/gallery/gallery1.jpg",
-  "/images/gallery/gallery2.jpg",
-  "/images/gallery/gallery3.jpg",
+  "/images/gallery/homegarden.jpeg",
+  "/images/gallery/office.jpeg",
+  "/images/gallery/caffelandscape.jpg",
 ];
 
 export default function GallerySection() {

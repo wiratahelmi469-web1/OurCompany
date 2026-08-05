@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 
 import { categories } from "@/app/data/products";
 
@@ -64,11 +63,6 @@ export default function Categories() {
                   <p className="mt-4 flex-1 leading-7 text-gray-300">
                     {category.description}
                   </p>
-
-                  <div className="mt-8 inline-flex items-center gap-2 font-semibold text-green-400 transition-all duration-300 group-hover:gap-4">
-                    Jelajahi Koleksi
-                    <ArrowRight size={18} />
-                  </div>
                 </div>
               </div>
             </Link>

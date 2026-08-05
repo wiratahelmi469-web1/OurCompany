@@ -1,36 +1,34 @@
-export const featuredGallery = [
-  "/images/gallery/featured.jpg",
-];
+export const featuredGallery = ["/images/gallery/featured.jpg"];
 
 export const plantCollection = [
   {
     title: "Monstera Deliciosa",
-    category: "Indoor Plant",
+    category: "Tanaman Indoor",
     image: "/images/gallery/plant1.jpg",
   },
   {
     title: "Philodendron Pink Princess",
-    category: "Premium Plant",
+    category: "Tanaman Premium",
     image: "/images/gallery/plant2.jpg",
   },
   {
     title: "Anthurium Crystallinum",
-    category: "Rare Collection",
+    category: "Koleksi Langka",
     image: "/images/gallery/plant3.jpg",
   },
   {
     title: "Calathea Orbifolia",
-    category: "Indoor Plant",
+    category: "Tanaman Indoor",
     image: "/images/gallery/plant4.jpg",
   },
   {
     title: "Alocasia Dragon Scale",
-    category: "Premium Plant",
+    category: "Tanaman Premium",
     image: "/images/gallery/plant5.jpg",
   },
   {
     title: "Syngonium Variegata",
-    category: "Collection",
+    category: "Koleksi",
     image: "/images/gallery/plant6.jpg",
   },
 ];
@@ -58,15 +56,15 @@ export const projectGallery = [
 
 export const nurseryGallery = [
   {
-    title: "Greenhouse Area",
+    title: "Area Greenhouse",
     image: "/images/gallery/nursery1.jpg",
   },
   {
-    title: "Plant Display",
+    title: "Pajangan Tanaman",
     image: "/images/gallery/nursery2.jpg",
   },
   {
-    title: "Plant Care",
+    title: "Perawatan Tanaman",
     image: "/images/gallery/nursery3.jpg",
   },
 ];

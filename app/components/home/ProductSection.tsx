@@ -29,11 +29,11 @@ export default function ProductSection() {
         <FadeUp delay={0.05}>
           <div className="mb-16 text-center">
             <span className="text-sm font-semibold uppercase tracking-[4px] text-green-400">
-              Our Products
+              Produk Kami
             </span>
 
             <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-              Discover Our Collection
+              Temukan Koleksi Kami
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300">
@@ -72,7 +72,7 @@ export default function ProductSection() {
                     href="/products"
                     className="mt-8 inline-flex items-center gap-2 font-semibold text-green-400 transition hover:gap-4"
                   >
-                    Explore Collection
+                    Jelajahi Koleksi
                     <ArrowRight size={18} />
                   </Link>
                 </div>

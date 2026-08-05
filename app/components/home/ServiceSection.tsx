@@ -4,10 +4,10 @@ import { CheckCircle2 } from "lucide-react";
 import FadeUp from "../animation/FadeUp";
 
 const services = [
-  "Plant Consultation",
-  "Secure Packaging",
-  "Fast Delivery",
-  "After Sales Support",
+  "Konsultasi Tanaman",
+  "Pengemasan Aman",
+  "Pengiriman Cepat",
+  "Dukungan Purna Jual",
 ];
 
 export default function ServiceSection() {
@@ -19,13 +19,13 @@ export default function ServiceSection() {
         <FadeUp delay={0.06}>
           <div>
             <span className="text-sm uppercase tracking-[4px] text-green-400 font-semibold">
-              Our Services
+              Layanan Kami
             </span>
 
             <h2 className="mt-4 text-4xl md:text-5xl font-bold text-white leading-tight">
-              More Than
+              Lebih dari Sekedar
               <br />
-              Just Selling Plants
+              Menjual Tanaman
             </h2>
 
             <p className="mt-8 text-lg text-gray-300 leading-8">
@@ -48,7 +48,7 @@ export default function ServiceSection() {
               href="/services"
               className="mt-12 inline-flex rounded-full bg-green-600 px-8 py-4 font-semibold text-white transition hover:bg-green-700"
             >
-              Explore Services
+              Jelajahi Layanan
             </Link>
           </div>
         </FadeUp>

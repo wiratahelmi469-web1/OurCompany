@@ -18,11 +18,11 @@ export default function GallerySection() {
         <FadeUp delay={0.05}>
           <div className="mb-16 text-center">
             <span className="text-sm font-semibold uppercase tracking-[4px] text-green-400">
-              Gallery
+              Galeri
             </span>
 
             <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-              Explore Our Nursery
+              Jelajahi Nursery Kami
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300">
@@ -74,7 +74,7 @@ export default function GallerySection() {
               href="/gallery"
               className="inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 font-semibold text-white transition hover:bg-green-700"
             >
-              View Gallery
+              Lihat Galeri
               <ArrowRight />
             </Link>
           </div>

@@ -1,19 +1,19 @@
 export const companyStats = [
   {
-    number: "500+",
-    title: "Happy Customers",
+    number: "5000+",
+    title: "Pelanggan Puas",
   },
   {
-    number: "100+",
-    title: "Plant Collections",
+    number: "1000+",
+    title: "Koleksi Tanaman",
   },
   {
     number: "5+",
-    title: "Years Experience",
+    title: "Tahun Pengalaman",
   },
   {
     number: "100%",
-    title: "Quality Commitment",
+    title: "Komitmen Kualitas",
   },
 ];
 

@@ -1,8 +1,8 @@
 export const featuredArticle = {
   title: "5 Tips Merawat Tanaman Hias Agar Tetap Sehat",
-  category: "Plant Care",
+  category: "Perawatan Tanaman",
   image: "/images/articles/featured.webp",
-  date: "August 2026",
+  date: "Agustus 2026",
   description:
     "Pelajari langkah-langkah sederhana agar tanaman hias tetap sehat, subur, dan tampil cantik sepanjang tahun.",
   link: "https://www.idntimes.com/life/inspiration/5-cara-merawat-tanaman-hias-agar-tetap-sehat-dan-cantik-01-wdszh-pht3wd",
@@ -11,14 +11,14 @@ export const featuredArticle = {
 export const latestArticles = [
   {
     title: "5 Cara Merawat Tanaman Hias Agar Tetap Sehat",
-    category: "Plant Care",
+    category: "Perawatan Tanaman",
     date: "10 Agustus 2026",
     image: "/images/articles/article1.webp",
     link: "https://www.idntimes.com/life/inspiration/5-cara-merawat-tanaman-hias-agar-tetap-sehat-dan-cantik-01-wdszh-pht3wd",
   },
   {
     title: "Tips Memilih Tanaman Indoor",
-    category: "Indoor Plant",
+    category: "Tanaman Indoor",
     date: "8 Agustus 2026",
     image: "/images/articles/article2.jpg",
     link: "https://www.pinhome.id/blog/memilih-tanaman-hias-indoor-yang-tepat/",
@@ -32,21 +32,21 @@ export const latestArticles = [
   },
   {
     title: "Cara Menyiram Tanaman yang Benar",
-    category: "Plant Care",
+    category: "Perawatan Tanaman",
     date: "2 Agustus 2026",
     image: "/images/articles/article4.jpg",
     link: "https://urbantani.id/tani-daily/cara-menyiram-tanaman-yang-baik-dan-benar-panduan-lengkap-untuk-pemula/",
   },
   {
     title: "Tanaman Hias untuk Ruang Tamu",
-    category: "Indoor Plant",
+    category: "Tanaman Indoor",
     date: "30 Juli 2026",
     image: "/images/articles/article5.jpg",
     link: "https://www.rumah123.com/panduan-properti/tanaman-hias-ruang-tamu/",
   },
   {
     title: "Panduan Pemupukan Tanaman Hias",
-    category: "Plant Care",
+    category: "Perawatan Tanaman",
     date: "27 Juli 2026",
     image: "/images/articles/article6.jpg",
     link: "https://www.scribd.com/document/709128608/bab-6-7",

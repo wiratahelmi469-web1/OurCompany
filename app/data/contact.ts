@@ -1,8 +1,8 @@
 export const contactInfo = {
-  phone: "+62 812-3456-7890",
+  phone: "+62 852-8619-7108",
   email: "bioplantproject@gmail.com",
   address:
-    "Jl. Contoh No.123, Bogor, Jawa Barat, Indonesia",
+    "Jl. Kp. Kaliputih Jl.Setapak No.03, RT.03, Citayam, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16320",
 };
 
 export const businessHours = [

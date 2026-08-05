@@ -8,31 +8,31 @@ import { usePathname } from "next/navigation";
 
 const menus = [
   {
-    name: "Home",
+    name: "Beranda",
     href: "/",
   },
   {
-    name: "Our Company",
+    name: "Tentang Kami",
     href: "/our-company",
   },
   {
-    name: "Products",
+    name: "Produk",
     href: "/products",
   },
   {
-    name: "Services",
+    name: "Layanan",
     href: "/services",
   },
   {
-    name: "Gallery",
+    name: "Galeri",
     href: "/gallery",
   },
+  // {
+  //   name: "Articles",
+  //   href: "/articles",
+  // },
   {
-    name: "Articles",
-    href: "/articles",
-  },
-  {
-    name: "Contact",
+    name: "Kontak",
     href: "/contact",
   },
 ];
@@ -50,8 +50,7 @@ export default function Navbar() {
 
     window.addEventListener("scroll", handleScroll);
 
-    return () =>
-      window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -63,13 +62,9 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-
         {/* Logo */}
 
-        <Link
-          href="/"
-          className="flex items-center gap-3"
-        >
+        <Link href="/" className="flex items-center gap-3">
           <Image
             src="/logos/bioplant.jpeg"
             alt="BioPlant Project"
@@ -80,22 +75,16 @@ export default function Navbar() {
           />
 
           <div>
-            <h1 className="text-xl font-bold text-white">
-              BioPlant
-            </h1>
+            <h1 className="text-xl font-bold text-white">BioPlant</h1>
 
-            <p className="text-xs tracking-[3px] text-green-300">
-              PROJECT
-            </p>
+            <p className="text-xs tracking-[3px] text-green-300">PROJECT</p>
           </div>
         </Link>
 
         {/* Desktop Menu */}
 
         <nav className="hidden items-center gap-8 lg:flex">
-
           {menus.map((menu) => (
-
             <Link
               key={menu.href}
               href={menu.href}
@@ -109,22 +98,17 @@ export default function Navbar() {
 
               <span
                 className={`absolute bottom-0 left-0 h-0.5 bg-green-400 transition-all duration-300 ${
-                  pathname === menu.href
-                    ? "w-full"
-                    : "w-0"
+                  pathname === menu.href ? "w-full" : "w-0"
                 }`}
               />
-
             </Link>
-
           ))}
-
         </nav>
 
         {/* Contact Button */}
 
         <Link
-          href="/contact"
+          href="https://wa.me/6285286197108"
           className="
             hidden
             lg:flex
@@ -143,7 +127,7 @@ export default function Navbar() {
             hover:shadow-green-700/30
           "
         >
-          Contact Us
+          Hubungi Kami
         </Link>
 
         {/* Mobile Button */}
@@ -152,13 +136,8 @@ export default function Navbar() {
           onClick={() => setOpen(!open)}
           className="text-white transition lg:hidden"
         >
-          {open ? (
-            <X size={30} />
-          ) : (
-            <Menu size={30} />
-          )}
+          {open ? <X size={30} /> : <Menu size={30} />}
         </button>
-
       </div>
 
       {/* Mobile Menu */}
@@ -169,9 +148,7 @@ export default function Navbar() {
         }`}
       >
         <div className="border-t border-white/10 bg-[#081C15]/95 backdrop-blur-xl py-4">
-
           {menus.map((menu) => (
-
             <Link
               key={menu.href}
               href={menu.href}
@@ -184,9 +161,7 @@ export default function Navbar() {
             >
               {menu.name}
             </Link>
-
           ))}
-
         </div>
       </div>
     </header>

@@ -10,11 +10,11 @@ export default function PlantCare() {
         {/* Heading */}
         <div className="mb-16 text-center">
           <span className="text-sm font-semibold uppercase tracking-[4px] text-green-400">
-            Plant Care
+            Perawatan Tanaman
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Keep Your Plants Healthy
+            Jaga Tanaman Tetap Sehat
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">

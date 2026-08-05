@@ -4,7 +4,6 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 export default function CTA() {
   return (
     <section className="relative overflow-hidden py-28 lg:py-36">
-
       {/* Background */}
 
       <div
@@ -25,33 +24,26 @@ export default function CTA() {
       {/* Content */}
 
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
-
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-green-600/20 backdrop-blur">
-
-          <MessageCircle
-            size={42}
-            className="text-green-400"
-          />
-
+          <MessageCircle size={42} className="text-green-400" />
         </div>
 
         <span className="mt-8 inline-block text-sm font-semibold uppercase tracking-[5px] text-green-400">
-          Contact BioPlant
+          Hubungi BioPlant
         </span>
 
         <h2 className="mt-6 text-4xl font-bold leading-tight text-white md:text-6xl">
-          Ready to Grow
+          Siap Berkembang
           <br />
-          With BioPlant?
+          Bersama BioPlant?
         </h2>
 
         <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-300">
-          Konsultasikan kebutuhan tanaman, landscape, maupun dekorasi
-          ruang Anda bersama tim BioPlant Project.
+          Konsultasikan kebutuhan tanaman, landscape, maupun dekorasi ruang Anda
+          bersama tim BioPlant Project.
         </p>
 
         <div className="mt-12 flex flex-col justify-center gap-5 sm:flex-row">
-
           {/* WhatsApp */}
 
           <Link
@@ -76,11 +68,8 @@ export default function CTA() {
               hover:shadow-green-700/30
             "
           >
-
             Chat via WhatsApp
-
             <MessageCircle size={20} />
-
           </Link>
 
           {/* Products */}
@@ -106,17 +95,11 @@ export default function CTA() {
               hover:text-black
             "
           >
-
-            Explore Products
-
+            Jelajahi Produk
             <ArrowRight size={20} />
-
           </Link>
-
         </div>
-
       </div>
-
     </section>
   );
 }

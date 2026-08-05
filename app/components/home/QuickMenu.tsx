@@ -11,16 +11,17 @@ export default function QuickMenu() {
         <FadeUp delay={0.05}>
           <div className="mb-14 text-center">
             <span className="text-sm font-semibold uppercase tracking-[4px] text-green-400">
-              Explore
+              Jelajahi
             </span>
 
             <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-              Discover BioPlant Project
+              Temukan BioPlant Project
             </h2>
 
             <p className="mx-auto mt-5 max-w-2xl text-lg text-gray-300">
-              Explore our company, products, services, gallery, articles, and
-              everything that makes BioPlant Project your trusted plant partner.
+              Jelajahi perusahaan, produk, layanan, galeri, artikel, dan semua
+              yang membuat BioPlant Project menjadi mitra tanaman terpercaya
+              Anda.
             </p>
           </div>
         </FadeUp>
@@ -57,7 +58,7 @@ export default function QuickMenu() {
                     </p>
 
                     <div className="mt-8 flex items-center gap-3 font-semibold text-green-400">
-                      View Details
+                      Lihat Detail
                       <ArrowRight className="transition duration-300 group-hover:translate-x-2" />
                     </div>
                   </div>

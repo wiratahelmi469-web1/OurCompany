@@ -11,16 +11,16 @@ export default function LatestArticles() {
 
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <span className="text-sm font-semibold uppercase tracking-[5px] text-green-400">
-            Latest Articles
+            Artikel Terbaru
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Explore Our Latest Insights
+            Temukan Wawasan Terbaru Kami
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Temukan berbagai artikel terbaru mengenai tanaman hias,
-            inspirasi dekorasi, hingga tips perawatan dari BioPlant Project.
+            Temukan berbagai artikel terbaru mengenai tanaman hias, inspirasi
+            dekorasi, hingga tips perawatan dari BioPlant Project.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export default function LatestArticles() {
                   rel="noopener noreferrer"
                   className="mt-8 inline-flex items-center gap-2 font-semibold text-green-400 transition-all hover:gap-4"
                 >
-                  Read More
+                  Selengkapnya
                   <ArrowRight size={18} />
                 </a>
               </div>

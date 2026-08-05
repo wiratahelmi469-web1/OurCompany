@@ -11,23 +11,22 @@ export default function FeaturedArticle() {
 
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <span className="text-sm font-semibold uppercase tracking-[5px] text-green-400">
-            Featured Article
+            Artikel Unggulan
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Learn More About Plants
+            Pelajari Lebih Banyak tentang Tanaman
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Artikel pilihan dari BioPlant Project yang berisi tips,
-            inspirasi, dan edukasi seputar tanaman hias.
+            Artikel pilihan dari BioPlant Project yang berisi tips, inspirasi,
+            dan edukasi seputar tanaman hias.
           </p>
         </div>
 
         {/* Featured Card */}
 
         <div className="grid items-center gap-12 lg:grid-cols-2">
-
           {/* Image */}
 
           <div className="group overflow-hidden rounded-3xl">
@@ -81,11 +80,10 @@ export default function FeaturedArticle() {
                 hover:bg-green-700
               "
             >
-              Read Article
+              Baca Artikel
               <ArrowRight size={18} />
             </a>
           </div>
-
         </div>
       </div>
     </section>

@@ -1,17 +1,18 @@
 export const categories = [
   {
-    title: "Indoor Plants",
-    description: "Beautiful ornamental plants for your indoor space.",
+    title: "Tanaman Indoor",
+    description: "Tanaman hias indah yang cocok untuk ruang indoor Anda.",
     image: "/images/products/indoor.jpg",
   },
   {
-    title: "Outdoor Plants",
-    description: "Fresh plants to beautify gardens and outdoor areas.",
+    title: "Tanaman Outdoor",
+    description:
+      "Tanaman segar untuk mempercantik taman dan area luar ruangan.",
     image: "/images/products/outdoor.jpg",
   },
   {
-    title: "Plant Accessories",
-    description: "Pots, fertilizer, and everything your plants need.",
+    title: "Aksesoris Tanaman",
+    description: "Pot, pupuk, dan semua kebutuhan tanaman Anda.",
     image: "/images/products/pot.jpg",
   },
 ];
@@ -19,21 +20,21 @@ export const categories = [
 export const featuredProducts = [
   {
     name: "Monstera Deliciosa",
-    category: "Indoor Plant",
+    category: "Tanaman Indoor",
     image: "/images/products/monstera.jpg",
     description:
       "Daun unik dengan tampilan elegan, cocok untuk mempercantik ruangan.",
   },
   {
     name: "Philodendron Pink Princess",
-    category: "Premium Plant",
+    category: "Tanaman Premium",
     image: "/images/products/philodendron.jpg",
     description:
       "Tanaman premium dengan warna daun yang eksotis dan berkarakter.",
   },
   {
     name: "Anthurium Crystallinum",
-    category: "Rare Collection",
+    category: "Koleksi Langka",
     image: "/images/products/anthurium.jpg",
     description:
       "Salah satu koleksi favorit pecinta tanaman hias dengan daun beludru.",
@@ -42,17 +43,17 @@ export const featuredProducts = [
 
 export const plantCareTips = [
   {
-    title: "Water Properly",
+    title: "Menyiram dengan Tepat",
     description:
       "Siram tanaman sesuai kebutuhan. Hindari penyiraman berlebihan agar akar tetap sehat.",
   },
   {
-    title: "Provide Enough Sunlight",
+    title: "Berikan Cahaya Cukup",
     description:
       "Pastikan tanaman mendapatkan intensitas cahaya yang sesuai dengan jenisnya.",
   },
   {
-    title: "Use Quality Fertilizer",
+    title: "Gunakan Pupuk Berkualitas",
     description:
       "Gunakan pupuk berkualitas secara rutin untuk mendukung pertumbuhan tanaman.",
   },
@@ -60,22 +61,22 @@ export const plantCareTips = [
 
 export const whyBuyUs = [
   {
-    title: "Healthy Plants",
+    title: "Tanaman Sehat",
     description:
       "Semua tanaman dirawat dengan baik sebelum sampai ke tangan pelanggan.",
   },
   {
-    title: "Secure Packaging",
+    title: "Pengemasan Aman",
     description:
-      "Packing aman menggunakan bahan berkualitas agar tanaman tetap segar selama pengiriman.",
+      "Pengemasan aman menggunakan bahan berkualitas agar tanaman tetap segar selama pengiriman.",
   },
   {
-    title: "Fast Delivery",
+    title: "Pengiriman Cepat",
     description:
       "Pengiriman cepat ke berbagai wilayah dengan proses yang terpercaya.",
   },
   {
-    title: "Friendly Support",
+    title: "Dukungan Ramah",
     description:
       "Tim BioPlant siap membantu konsultasi sebelum dan sesudah pembelian.",
   },

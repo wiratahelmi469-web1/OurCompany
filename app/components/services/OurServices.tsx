@@ -7,42 +7,35 @@ export default function OurServices() {
   return (
     <section className="bg-[#0B221A] py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6">
-
         {/* Heading */}
 
         <div className="mx-auto mb-16 max-w-3xl text-center">
-
           <span className="text-sm font-semibold uppercase tracking-[5px] text-green-400">
-            Our Services
+            Layanan Kami
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Professional Plant Services
+            Layanan Tanaman Profesional
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Kami menyediakan berbagai layanan profesional mulai dari
-            konsultasi, desain landscape, hingga perawatan tanaman
-            agar tetap sehat dan indah.
+            Kami menyediakan berbagai layanan profesional mulai dari konsultasi,
+            desain landscape, hingga perawatan tanaman agar tetap sehat dan
+            indah.
           </p>
-
         </div>
 
         {/* Cards */}
 
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
-
           {services.map((service) => (
-
             <div
               key={service.title}
               className="group overflow-hidden rounded-3xl bg-[#132A22] shadow-xl transition duration-300 hover:-translate-y-2"
             >
-
               {/* Image */}
 
               <div className="relative h-72 overflow-hidden">
-
                 <Image
                   src={service.image}
                   alt={service.title}
@@ -51,13 +44,11 @@ export default function OurServices() {
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
-
               </div>
 
               {/* Content */}
 
               <div className="p-8">
-
                 <h3 className="text-2xl font-bold text-white">
                   {service.title}
                 </h3>
@@ -82,20 +73,13 @@ export default function OurServices() {
                     hover:gap-4
                   "
                 >
-                  Learn More
-
+                  Pelajari Lebih Lanjut
                   <ArrowRight size={18} />
-
                 </a>
-
               </div>
-
             </div>
-
           ))}
-
         </div>
-
       </div>
     </section>
   );

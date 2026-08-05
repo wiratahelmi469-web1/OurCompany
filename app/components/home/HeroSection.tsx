@@ -43,7 +43,7 @@ export default function Hero() {
           {/* Small Heading */}
           <FadeUp delay={0.12}>
             <p className="mt-8 text-xs font-semibold uppercase tracking-[8px] text-green-300 md:text-sm">
-              Premium Plant Nursery
+              Quality Plants & Garden Build
             </p>
           </FadeUp>
 
@@ -57,8 +57,8 @@ export default function Hero() {
           {/* Description */}
           <FadeUp delay={0.24}>
             <p className="mx-auto mt-8 max-w-3xl text-base leading-8 text-gray-200 md:text-xl">
-              Bringing Nature Into Your Space with premium ornamental plants,
-              landscaping inspiration, and professional plant care.
+              Menghadirkan alam ke ruang Anda dengan tanaman hias premium,
+              inspirasi landscape, dan perawatan tanaman profesional.
             </p>
           </FadeUp>
 
@@ -69,14 +69,14 @@ export default function Hero() {
                 href="/our-company"
                 className="rounded-full bg-green-600 px-8 py-4 text-base font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-green-700 hover:shadow-xl hover:shadow-green-700/30"
               >
-                Explore Company
+                Jelajahi BioPlant
               </Link>
 
               <Link
                 href="/products"
                 className="rounded-full border border-white/70 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:bg-white hover:text-black"
               >
-                Our Products
+                Lihat Produk
               </Link>
             </div>
           </FadeUp>

@@ -17,7 +17,7 @@ export default function FAQ() {
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Frequently Asked Questions
+            Pertanyaan yang Sering Diajukan
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">

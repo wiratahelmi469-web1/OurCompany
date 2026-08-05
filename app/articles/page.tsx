@@ -11,8 +11,8 @@ export default function ArticlesPage() {
   return (
     <>
       <PageHero
-        title="Articles"
-        subtitle="Explore articles, tips, and inspiration from BioPlant Project."
+        title="Artikel"
+        subtitle="Jelajahi artikel, tips, dan inspirasi dari BioPlant Project."
         image="/images/articles/hero.jpg"
       />
 

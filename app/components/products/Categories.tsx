@@ -10,16 +10,16 @@ export default function Categories() {
         {/* Heading */}
         <div className="mb-16 text-center">
           <span className="text-sm font-semibold uppercase tracking-[4px] text-green-400">
-            Product Categories
+            Kategori Produk
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Find Your Favorite Plants
+            Temukan Tanaman Favorit Anda
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">
-            Explore our carefully selected ornamental plants and accessories
-            designed to bring nature closer to your everyday life.
+            Temukan tanaman hias dan aksesoris pilihan yang dirancang untuk
+            mendekatkan alam ke kehidupan sehari-hari Anda.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ export default function Categories() {
                   </p>
 
                   <div className="mt-8 flex items-center gap-2 font-semibold text-green-400 transition-all group-hover:gap-4">
-                    Explore Collection
+                    Jelajahi Koleksi
                     <ArrowRight size={18} />
                   </div>
                 </div>

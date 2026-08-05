@@ -4,9 +4,9 @@ import { CheckCircle2 } from "lucide-react";
 import FadeUp from "../animation/FadeUp";
 
 const features = [
-  "Healthy & Premium Plants",
-  "Professional Plant Care",
-  "Trusted Nursery in Indonesia",
+  "Tanaman Sehat & Berkualitas Premium",
+  "Perawatan Tanaman Profesional",
+  "Nursery Terpercaya di Indonesia",
 ];
 
 export default function AboutSection() {
@@ -30,7 +30,7 @@ export default function AboutSection() {
         <FadeUp delay={0.18}>
           <div>
             <span className="text-sm font-semibold uppercase tracking-[4px] text-green-400">
-              About Us
+              Tentang Kami
             </span>
 
             <h2 className="mt-4 text-4xl font-bold leading-tight text-white md:text-5xl">
@@ -60,7 +60,7 @@ export default function AboutSection() {
               href="/our-company"
               className="mt-12 inline-flex rounded-full bg-green-600 px-8 py-4 font-semibold text-white transition hover:bg-green-700"
             >
-              Learn More
+              Pelajari Lebih Lanjut
             </Link>
           </div>
         </FadeUp>

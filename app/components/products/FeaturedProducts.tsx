@@ -10,11 +10,11 @@ export default function FeaturedProducts() {
         {/* Heading */}
         <div className="mb-16 text-center">
           <span className="text-sm font-semibold uppercase tracking-[4px] text-green-400">
-            Featured Products
+            Produk Unggulan
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Our Best Collection
+            Koleksi Terbaik Kami
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">
@@ -61,7 +61,7 @@ export default function FeaturedProducts() {
                   href="/contact"
                   className="mt-8 inline-flex items-center gap-2 rounded-full border border-green-500 px-6 py-3 font-semibold text-green-400 transition-all duration-300 hover:bg-green-600 hover:text-white"
                 >
-                  Ask Availability
+                  Tanyakan Ketersediaan
                   <ArrowRight size={18} />
                 </Link>
               </div>

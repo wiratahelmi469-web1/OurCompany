@@ -1,29 +1,27 @@
 export const services = [
   {
-    title: "Landscape Design",
+    title: "Desain Landscape",
     description:
       "Layanan desain taman dan area hijau yang estetik sesuai kebutuhan.",
     image: "/images/services/landscape.jpg",
     link: "https://tamanify.com/tanaman-untuk-taman-minimalis/",
   },
   {
-    title: "Plant Consultation",
+    title: "Konsultasi Tanaman",
     description:
       "Konsultasi pemilihan tanaman terbaik untuk rumah maupun kantor.",
     image: "/images/services/consultation.jpg",
     link: "https://www.plantersam.com/services/plant-consultation",
   },
   {
-    title: "Plant Maintenance",
-    description:
-      "Perawatan tanaman secara berkala agar tetap sehat dan indah.",
+    title: "Perawatan Tanaman",
+    description: "Perawatan tanaman secara berkala agar tetap sehat dan indah.",
     image: "/images/services/maintenance.webp",
     link: "https://readmore.id/tanaman/standar-pemeliharaan-tanaman",
   },
   {
-    title: "Plant Installation",
-    description:
-      "Pemasangan tanaman dan dekorasi hijau secara profesional.",
+    title: "Pemasangan Tanaman",
+    description: "Pemasangan tanaman dan dekorasi hijau secara profesional.",
     image: "/images/services/installation.jpg",
     link: "https://www.greenlandscapeindonesia.com/",
   },
@@ -32,25 +30,25 @@ export const services = [
 export const workProcess = [
   {
     number: "01",
-    title: "Consultation",
+    title: "Konsultasi",
     description:
       "Diskusikan kebutuhan tanaman, taman, maupun dekorasi bersama tim BioPlant.",
   },
   {
     number: "02",
-    title: "Planning",
+    title: "Perencanaan",
     description:
       "Kami menyusun konsep, memilih tanaman, dan membuat rencana pengerjaan.",
   },
   {
     number: "03",
-    title: "Installation",
+    title: "Pemasangan",
     description:
       "Tim kami melakukan pemasangan dan penataan tanaman secara profesional.",
   },
   {
     number: "04",
-    title: "Maintenance",
+    title: "Perawatan",
     description:
       "Perawatan rutin agar tanaman tetap sehat, segar, dan tumbuh optimal.",
   },
@@ -58,22 +56,22 @@ export const workProcess = [
 
 export const whyChooseService = [
   {
-    title: "Professional Team",
+    title: "Tim Profesional",
     description:
       "Tim kami berpengalaman dalam menangani berbagai kebutuhan tanaman dan landscape.",
   },
   {
-    title: "Premium Quality",
+    title: "Kualitas Premium",
     description:
       "Menggunakan tanaman berkualitas dengan proses perawatan terbaik.",
   },
   {
-    title: "Fast & Safe Service",
+    title: "Layanan Cepat & Aman",
     description:
       "Pengerjaan tepat waktu dengan standar pelayanan yang profesional.",
   },
   {
-    title: "Customer Satisfaction",
+    title: "Kepuasan Pelanggan",
     description:
       "Kami selalu mengutamakan kepuasan pelanggan dalam setiap proyek.",
   },

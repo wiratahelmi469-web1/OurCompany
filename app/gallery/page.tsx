@@ -11,8 +11,8 @@ export default function GalleryPage() {
   return (
     <>
       <PageHero
-        title="Gallery"
-        subtitle="Explore our plant collections, nursery, and completed projects."
+        title="Galeri"
+        subtitle="Jelajahi koleksi tanaman, nursery, dan proyek yang telah selesai."
         image="/images/gallery/hero.jpg"
       />
 

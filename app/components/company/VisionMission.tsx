@@ -9,13 +9,13 @@ export default function VisionMission() {
           </span>
 
           <h2 className="mt-5 text-3xl font-bold text-white">
-            Our Vision
+            Visi Kami
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Menjadi perusahaan tanaman hias terpercaya yang menghadirkan
-            solusi penghijauan berkualitas serta menginspirasi masyarakat
-            untuk hidup lebih dekat dengan alam.
+            Menjadi supplier tanaman hias dan penyedia jasa 
+            pembuatan taman terpercaya di Indonesia yang memberikan 
+            hasil rapi, sehat, dan berkualitas.
           </p>
         </div>
 
@@ -25,14 +25,18 @@ export default function VisionMission() {
           </span>
 
           <h2 className="mt-5 text-3xl font-bold text-white">
-            Our Mission
+            Misi Kami
           </h2>
 
           <ul className="mt-6 space-y-5 text-lg text-gray-300">
-            <li>✓ Menyediakan tanaman berkualitas premium.</li>
-            <li>✓ Memberikan pelayanan terbaik.</li>
-            <li>✓ Mengembangkan solusi penghijauan.</li>
-            <li>✓ Menjaga kepuasan pelanggan.</li>
+            <li>✓ Produk Berkualitas: Menyediakan tanaman indoor 
+              dan outdoor yang sehat dan terawat dengan baik.</li>
+            <li>✓ Layanan Profesional: Melayani pembuatan taman vertikal, 
+              lanskap, dan perawatan taman secara rapi dan tepat waktu.</li>
+            <li>✓ Solusi Lengkap: Menjadi supplier dan penyedia jasa 
+              taman terpercaya untuk rumah maupun area komersial.</li>
+            <li>✓ Lingkungan Asri: Membantu pelanggan menciptakan 
+              suasana yang segar, nyaman, dan hijau di setiap ruang.</li>
           </ul>
         </div>
 

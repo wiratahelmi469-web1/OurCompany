@@ -11,8 +11,8 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
-        title="Contact"
-        subtitle="We'd love to hear from you. Get in touch with BioPlant Project."
+        title="Kontak"
+        subtitle="Kami ingin mendengar dari Anda. Hubungi BioPlant Project."
         image="/images/contact/hero.jpg"
       />
 

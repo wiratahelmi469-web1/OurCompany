@@ -21,13 +21,13 @@ export default function CTA() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
         <span className="text-sm font-semibold uppercase tracking-[5px] text-green-400">
-          Lets Grow Together
+          Mari Berkembang Bersama
         </span>
 
         <h2 className="mt-6 text-4xl font-bold text-white md:text-6xl">
-          Ready to Find
+          Siap Menemukan
           <br />
-          Your Dream Plant?
+          Tanaman Impian Anda?
         </h2>
 
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-gray-300">
@@ -37,7 +37,7 @@ export default function CTA() {
 
         <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
           <Link
-            href="/contact"
+            href="https://wa.me/6285286197108"
             className="
               inline-flex
               items-center
@@ -57,7 +57,7 @@ export default function CTA() {
               hover:shadow-green-700/30
             "
           >
-            Contact Us
+            Hubungi Kami
             <ArrowRight size={18} />
           </Link>
 
@@ -81,7 +81,7 @@ export default function CTA() {
               hover:text-black
             "
           >
-            View Gallery
+            Lihat Galeri
           </Link>
         </div>
       </div>

@@ -10,8 +10,8 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
-        title="Our Services"
-        subtitle="Professional plant services for homes, offices, and commercial spaces."
+        title="Layanan Kami"
+        subtitle="Layanan tanaman profesional untuk rumah, kantor, dan ruang komersial."
         image="/images/services/hero.jpg"
       />
 

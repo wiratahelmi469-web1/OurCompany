@@ -4,7 +4,6 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export default function CTA() {
   return (
     <section className="relative overflow-hidden py-28 lg:py-36">
-
       {/* Background */}
 
       <div
@@ -25,33 +24,26 @@ export default function CTA() {
       {/* Content */}
 
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
-
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-green-600/20 backdrop-blur">
-
-          <BookOpen
-            size={42}
-            className="text-green-400"
-          />
-
+          <BookOpen size={42} className="text-green-400" />
         </div>
 
         <span className="mt-8 inline-block text-sm font-semibold uppercase tracking-[5px] text-green-400">
-          Keep Learning
+          Terus Belajar
         </span>
 
         <h2 className="mt-6 text-4xl font-bold leading-tight text-white md:text-6xl">
-          Need More Plant
+          Butuh Inspirasi
           <br />
-          Inspiration?
+          Tanaman Lebih Banyak?
         </h2>
 
         <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-300">
-          Temukan berbagai koleksi tanaman premium atau konsultasikan
-          kebutuhan landscape Anda bersama tim BioPlant Project.
+          Temukan berbagai koleksi tanaman premium atau konsultasikan kebutuhan
+          landscape Anda bersama tim BioPlant Project.
         </p>
 
         <div className="mt-12 flex flex-col justify-center gap-5 sm:flex-row">
-
           <Link
             href="/contact"
             className="
@@ -73,11 +65,8 @@ export default function CTA() {
               hover:shadow-green-700/30
             "
           >
-
-            Contact Us
-
+            Hubungi Kami
             <ArrowRight size={20} />
-
           </Link>
 
           <Link
@@ -100,15 +89,10 @@ export default function CTA() {
               hover:text-black
             "
           >
-
-            Explore Products
-
+            Jelajahi Produk
           </Link>
-
         </div>
-
       </div>
-
     </section>
   );
 }

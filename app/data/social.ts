@@ -3,7 +3,7 @@ export const socialMedia = [
     id: 1,
     name: "WhatsApp",
     href: "https://wa.me/6281234567890",
-    icon: "/icons/whatsapp.png",
+    icon: "/icons/wa.png",
   },
   {
     id: 2,

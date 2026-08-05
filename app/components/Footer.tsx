@@ -70,7 +70,7 @@ export default function Footer() {
                 alt={item.name}
                 width={28}
                 height={28}
-                className="object-contain transition-transform duration-300 group-hover:scale-110"
+                className="transition-transform duration-300 hover:scale-110"
               />
             </Link>
           ))}

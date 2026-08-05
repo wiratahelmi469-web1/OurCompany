@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Camera, MessageCircle, ShoppingBag } from "lucide-react";
+import { socialMedia } from "@/app/data/social";
 
 export default function Footer() {
   return (
     <footer className="bg-[#061710] border-t border-white/10 text-white">
       <div className="mx-auto max-w-7xl px-6 py-16">
         {/* Logo */}
-
         <div className="flex flex-col items-center">
           <Image
             src="/logos/bioplant.jpeg"
@@ -26,13 +25,15 @@ export default function Footer() {
         </div>
 
         {/* Navigation */}
-
         <div className="mt-12 flex flex-wrap justify-center gap-8 text-sm">
           <Link href="/" className="transition hover:text-green-400">
             Beranda
           </Link>
 
-          <Link href="/our-company" className="transition hover:text-green-400">
+          <Link
+            href="/our-company"
+            className="transition hover:text-green-400"
+          >
             Tentang Kami
           </Link>
 
@@ -48,50 +49,40 @@ export default function Footer() {
             Galeri
           </Link>
 
-          <Link href="/articles" className="transition hover:text-green-400">
-            Artikel
-          </Link>
-
           <Link href="/contact" className="transition hover:text-green-400">
             Kontak
           </Link>
         </div>
 
         {/* Social Media */}
-
-        <div className="mt-12 flex justify-center gap-5">
-          <Link
-            href="https://wa.me/6281234567890"
-            target="_blank"
-            className="rounded-full bg-[#132A22] p-3 transition hover:bg-green-600"
-          >
-            <MessageCircle size={22} />
-          </Link>
-
-          <Link
-            href="https://instagram.com/bioplantproject"
-            target="_blank"
-            className="rounded-full bg-[#132A22] p-3 transition hover:bg-pink-600"
-          >
-            <Camera size={22} />
-          </Link>
-
-          <Link
-            href="https://www.tokopedia.com/"
-            target="_blank"
-            className="rounded-full bg-[#132A22] p-3 transition hover:bg-green-500"
-          >
-            <ShoppingBag size={22} />
-          </Link>
+        <div className="mt-12 flex justify-center gap-6">
+          {socialMedia.map((item) => (
+            <Link
+              key={item.id}
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={item.name}
+              className="group rounded-full bg-[#132A22] p-3 transition-all duration-300 hover:scale-110 hover:bg-green-600"
+            >
+              <Image
+                src={item.icon}
+                alt={item.name}
+                width={28}
+                height={28}
+                className="object-contain transition-transform duration-300 group-hover:scale-110"
+              />
+            </Link>
+          ))}
         </div>
       </div>
 
       {/* Copyright */}
-
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-6 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} BioPlant Project. Semua hak dilindungi.
+            © {new Date().getFullYear()} BioPlant Project. Semua hak
+            dilindungi.
           </p>
         </div>
       </div>

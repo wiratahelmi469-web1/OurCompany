@@ -6,7 +6,7 @@ import FadeUp from "../animation/FadeUp";
 const gallery = [
   "/images/gallery/homegarden.jpeg",
   "/images/gallery/office.jpeg",
-  "/images/gallery/caffelandscape.jpg",
+  "/images/gallery/caffelandscape.jpeg",
 ];
 
 export default function GallerySection() {

@@ -8,7 +8,7 @@ export default function CTA() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/images/products/hero1.jpg')",
+          backgroundImage: "url('/images/products/hero2.jpg')",
         }}
       />
 

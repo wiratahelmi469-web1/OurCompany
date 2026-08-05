@@ -32,7 +32,7 @@ export const businessHours = [
   },
   {
     day: "Sunday",
-    time: "Closed",
+    time: "08.00 - 15.00",
   },
 ];
 

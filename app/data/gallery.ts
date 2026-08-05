@@ -38,31 +38,31 @@ export const projectGallery = [
     title: "Modern Home Garden",
     description:
       "Penataan taman minimalis untuk hunian modern dengan kombinasi tanaman hias premium.",
-    image: "/images/gallery/project1.jpg",
+    image: "/images/gallery/homegarden.jpeg",
   },
   {
     title: "Office Green Corner",
     description:
       "Menghadirkan suasana kerja yang lebih segar melalui dekorasi tanaman indoor.",
-    image: "/images/gallery/project2.jpg",
+    image: "/images/gallery/office.jpeg",
   },
   {
     title: "Cafe Landscape",
     description:
       "Desain area hijau untuk cafe agar menciptakan suasana yang nyaman dan estetik.",
-    image: "/images/gallery/project3.jpg",
+    image: "/images/gallery/caffelandscape.jpeg",
   },
   {
     title: "Taman Minimalis Perumahan",
     description:
-      "Perancangan dan pembangunan taman minimalis dengan kombinasi tanaman hias serta rumput yang cocok untuk area hunian modern.",
-    image: "/images/gallery/project4.jpg",
+     "Perancangan dan pembangunan taman minimalis yang memadukan tanaman hias, batu alam, dan elemen landscape untuk menciptakan hunian yang asri, modern, dan nyaman.",
+    image: "/images/gallery/taman.jpeg",
   },
   {
-    title: "Perawatan Taman Hotel",
+    title: "Zen Garden",
     description:
-      "Layanan maintenance taman meliputi pemangkasan, pemupukan, penyiraman, dan penggantian tanaman agar area hotel tetap hijau dan terawat.",
-    image: "/images/gallery/project5.jpg",
+        "Pembuatan Zen Garden dengan perpaduan batu alam, tanaman hijau, dan elemen dekoratif yang menghadirkan suasana tenang, alami, serta menambah nilai estetika pada taman.",
+    image: "/images/gallery/zengarden.jpeg",
   },
 ];
 

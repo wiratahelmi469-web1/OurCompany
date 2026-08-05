@@ -23,23 +23,23 @@ export const featuredProducts = [
   {
     name: "Monstera Deliciosa",
     category: "Tanaman Indoor",
-    image: "/images/products/monstera.jpg",
+    image: "/images/products/monstera.jpeg",
     description:
       "Daun unik dengan tampilan elegan, cocok untuk mempercantik ruangan.",
   },
   {
-    name: "Philodendron Pink Princess",
+    name: "Anggrek",
     category: "Tanaman Premium",
-    image: "/images/products/philodendron.jpg",
+    image: "/images/products/anggrek.jpeg",
     description:
-      "Tanaman premium dengan warna daun yang eksotis dan berkarakter.",
+      "Koleksi tanaman anggrek berkualitas dengan bunga yang indah dan warna memikat, cocok untuk mempercantik rumah, taman, maupun area komersial.",
   },
   {
-    name: "Anthurium Crystallinum",
+    name: "Kamboja Fosil & Pule",
     category: "Koleksi Langka",
-    image: "/images/products/anthurium.jpg",
+    image: "/images/products/kamboja&pule.jpeg",
     description:
-      "Salah satu koleksi favorit pecinta tanaman hias dengan daun beludru.",
+      "Koleksi Kamboja Fosil dan Pule dengan karakter batang eksotis serta nilai estetika tinggi, cocok sebagai focal point untuk taman, landscape, maupun area komersial.",
   },
 ];
 

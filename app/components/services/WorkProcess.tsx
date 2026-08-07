@@ -18,7 +18,7 @@ export default function WorkProcess() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Setiap layanan BioPlant dilakukan melalui proses yang
+            Setiap layanan Greenovative dilakukan melalui proses yang
             terstruktur agar menghasilkan kualitas terbaik.
           </p>
 

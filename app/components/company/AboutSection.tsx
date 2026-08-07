@@ -34,7 +34,7 @@ export default function AboutSection() {
           </h2>
 
           <p className="mt-8 text-lg leading-8 text-gray-300">
-            BioPlant Project adalah supplier tanaman hias terpercaya yang
+            Greenovative adalah supplier tanaman hias terpercaya yang
             melayani pembuatan taman vertikal dan lanskap, serta jasa perawatan
             taman profesional. Kami menyediakan berbagai jenis tanaman indoor
             dan outdoor berkualitas untuk hunian maupun area komersial. Bagi

@@ -16,7 +16,7 @@ export default function CTASection() {
 
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-gray-300">
           Temukan berbagai koleksi tanaman hias berkualitas serta layanan
-          terbaik dari BioPlant Project.
+          terbaik dari Greenovative.
         </p>
 
         <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">

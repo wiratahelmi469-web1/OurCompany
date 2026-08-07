@@ -13,7 +13,7 @@ export default function OurCompanyPage() {
     <>
       <PageHero
         title="Tentang Kami"
-        subtitle="Kenali BioPlant Project dan komitmen kami untuk menghadirkan alam ke setiap ruang."
+        subtitle="Kenali Greenovative dan komitmen kami untuk menghadirkan alam ke setiap ruang."
         image="/images/company/Hero.jpg"
       />
 

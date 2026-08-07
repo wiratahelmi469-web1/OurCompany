@@ -17,7 +17,7 @@ export default function BusinessHours() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">
-            Berikut adalah jam operasional BioPlant Project. Kami siap melayani
+            Berikut adalah jam operasional Greenovative. Kami siap melayani
             Anda pada waktu berikut.
           </p>
         </div>

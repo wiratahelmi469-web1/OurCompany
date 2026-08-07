@@ -63,11 +63,10 @@ export default function Navbar() {
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         {/* Logo */}
-
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/logos/bioplant.jpeg"
-            alt="BioPlant Project"
+            src="/logos/greenovative.jpg"
+            alt="Greenovative"
             width={48}
             height={48}
             className="rounded-full object-cover"
@@ -75,14 +74,15 @@ export default function Navbar() {
           />
 
           <div>
-            <h1 className="text-xl font-bold text-white">BioPlant</h1>
+            <h1 className="text-xl font-bold text-white">Greenovative</h1>
 
-            <p className="text-xs tracking-[3px] text-green-300">PROJECT</p>
+            <p className="text-xs tracking-[3px] text-green-300">
+              LANDSCAPE & PLANT SOLUTION
+            </p>
           </div>
         </Link>
 
         {/* Desktop Menu */}
-
         <nav className="hidden items-center gap-8 lg:flex">
           {menus.map((menu) => (
             <Link
@@ -106,7 +106,6 @@ export default function Navbar() {
         </nav>
 
         {/* Contact Button */}
-
         <Link
           href="https://wa.me/6285286197108"
           className="
@@ -131,7 +130,6 @@ export default function Navbar() {
         </Link>
 
         {/* Mobile Button */}
-
         <button
           onClick={() => setOpen(!open)}
           className="text-white transition lg:hidden"
@@ -141,7 +139,6 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-
       <div
         className={`overflow-hidden transition-all duration-300 lg:hidden ${
           open ? "max-h-[500px]" : "max-h-0"

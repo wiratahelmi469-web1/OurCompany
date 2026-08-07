@@ -11,7 +11,7 @@ export default function StatsSection() {
           </span>
 
           <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            BioPlant in Numbers
+            Greenovative in Numbers
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl px-2 text-base leading-8 text-gray-300 sm:text-lg">

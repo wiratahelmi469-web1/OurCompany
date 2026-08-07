@@ -30,8 +30,8 @@ export default function Hero() {
           <FadeUp delay={0.05}>
             <div className="mx-auto flex h-40 w-40 items-center justify-center rounded-full bg-white p-4 shadow-2xl ring-4 ring-white/20">
               <Image
-                src="/logos/bioplant.jpeg"
-                alt="BioPlant Project"
+                src="/logos/greenovative.jpg"
+                alt="Greenovative"
                 width={120}
                 height={120}
                 className="rounded-full object-contain"
@@ -50,7 +50,7 @@ export default function Hero() {
           {/* Title */}
           <FadeUp delay={0.18}>
             <h1 className="mt-5 text-5xl font-extrabold leading-tight text-white md:text-7xl lg:text-8xl">
-              BioPlant Project
+              Greenovative
             </h1>
           </FadeUp>
 
@@ -69,7 +69,7 @@ export default function Hero() {
                 href="/our-company"
                 className="rounded-full bg-green-600 px-8 py-4 text-base font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-green-700 hover:shadow-xl hover:shadow-green-700/30"
               >
-                Jelajahi BioPlant
+                Jelajahi Greenovative
               </Link>
 
               <Link

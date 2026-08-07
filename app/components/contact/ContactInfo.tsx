@@ -18,7 +18,7 @@ export default function ContactInfo() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Hubungi BioPlant Project untuk konsultasi, pemesanan, maupun
+            Hubungi Greenovative untuk konsultasi, pemesanan, maupun
             informasi mengenai tanaman dan layanan kami.
           </p>
         </div>

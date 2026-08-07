@@ -30,7 +30,7 @@ export default function PageHero({
       <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-6">
         <div className="max-w-2xl">
           <span className="text-sm font-semibold uppercase tracking-[6px] text-green-300">
-            BioPlant Project
+            Greenovative
           </span>
 
           <h1 className="mt-5 text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">

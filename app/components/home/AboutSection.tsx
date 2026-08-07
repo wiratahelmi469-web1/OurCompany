@@ -17,8 +17,8 @@ export default function AboutSection() {
         <FadeUp delay={0.1}>
           <div className="relative overflow-hidden rounded-3xl">
             <Image
-              src="/images/about/greenhouse.jpg"
-              alt="BioPlant Nursery"
+              src="/images/about/Greenovative.jpg"
+              alt="Greenovative"
               width={900}
               height={700}
               className="h-[350px] w-full object-cover transition duration-700 hover:scale-105 lg:h-[600px]"
@@ -40,7 +40,7 @@ export default function AboutSection() {
             </h2>
 
             <p className="mt-8 text-lg leading-8 text-gray-300">
-              BioPlant Project menyediakan berbagai tanaman hias berkualitas,
+              Greenovative menyediakan berbagai tanaman hias berkualitas,
               mulai dari tanaman indoor, outdoor, hingga kebutuhan landscape.
               Kami percaya bahwa tanaman bukan hanya dekorasi, tetapi bagian
               dari gaya hidup yang menghadirkan kenyamanan dan kesegaran.

@@ -89,18 +89,18 @@ export const galleryFaq = [
       "Sebagian besar tanaman yang ditampilkan tersedia. Namun, beberapa merupakan koleksi musiman atau sudah terjual. Silakan hubungi kami untuk mengecek ketersediaannya.",
   },
   {
-    question: "Apakah saya bisa mengunjungi nursery BioPlant?",
+    question: "Apakah saya bisa mengunjungi nursery Greenovative?",
     answer:
       "Tentu. Anda dapat mengunjungi nursery kami pada jam operasional untuk melihat koleksi tanaman secara langsung.",
   },
   {
-    question: "Apakah BioPlant menerima proyek custom?",
+    question: "Apakah Greenovative menerima proyek custom?",
     answer:
       "Ya. Kami menerima proyek landscape, dekorasi tanaman, dan penghijauan yang disesuaikan dengan kebutuhan pelanggan.",
   },
   {
     question: "Bagaimana cara berkonsultasi sebelum memesan?",
     answer:
-      "Anda dapat menghubungi kami melalui WhatsApp atau media sosial BioPlant untuk konsultasi secara gratis.",
+      "Anda dapat menghubungi kami melalui WhatsApp atau media sosial Greenovative untuk konsultasi secara gratis.",
   },
 ];

@@ -88,10 +88,10 @@ export const faqItems = [
   {
     question: "Bagaimana cara memesan tanaman?",
     answer:
-      "Anda dapat menghubungi kami melalui WhatsApp atau mengunjungi marketplace resmi BioPlant untuk melakukan pemesanan.",
+      "Anda dapat menghubungi kami melalui WhatsApp atau mengunjungi marketplace resmi Greenovative untuk melakukan pemesanan.",
   },
   {
-    question: "Apakah BioPlant melayani pengiriman ke luar kota?",
+    question: "Apakah Greenovative melayani pengiriman ke luar kota?",
     answer:
       "Ya. Kami melayani pengiriman ke berbagai kota di Indonesia dengan metode packing yang aman agar tanaman tetap terjaga.",
   },

@@ -40,7 +40,7 @@ export default function CTA() {
 
         <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-300">
           Temukan berbagai koleksi tanaman hias premium atau konsultasikan
-          kebutuhan landscape Anda bersama BioPlant Project.
+          kebutuhan landscape Anda bersama Greenovative.
         </p>
 
         {/* Buttons */}

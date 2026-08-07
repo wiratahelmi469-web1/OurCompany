@@ -29,7 +29,7 @@ export default function ServiceSection() {
             </h2>
 
             <p className="mt-8 text-lg text-gray-300 leading-8">
-              BioPlant Project memberikan pelayanan terbaik mulai dari
+              Greenovative memberikan pelayanan terbaik mulai dari
               konsultasi tanaman, pengemasan aman hingga pengiriman agar tanaman
               tiba dalam kondisi terbaik.
             </p>

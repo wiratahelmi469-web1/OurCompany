@@ -78,10 +78,10 @@ export const serviceFaq = [
   {
     question: "Bagaimana cara melakukan konsultasi?",
     answer:
-      "Anda dapat menghubungi kami melalui WhatsApp, email, atau datang langsung ke lokasi BioPlant Project untuk konsultasi mengenai kebutuhan tanaman dan landscape.",
+      "Anda dapat menghubungi kami melalui WhatsApp, email, atau datang langsung ke lokasi Greenovative untuk konsultasi mengenai kebutuhan tanaman dan landscape.",
   },
   {
-    question: "Apakah BioPlant melayani proyek luar kota?",
+    question: "Apakah Greenovative melayani proyek luar kota?",
     answer:
       "Ya. Kami melayani proyek di berbagai kota dengan penyesuaian jadwal dan biaya transportasi.",
   },

@@ -58,7 +58,7 @@ ${form.pesan}`;
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Isi formulir berikut dan tim BioPlant Project akan segera
+            Isi formulir berikut dan tim Greenovative akan segera
             menghubungi Anda.
           </p>
         </div>

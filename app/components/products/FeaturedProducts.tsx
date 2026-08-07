@@ -18,7 +18,7 @@ export default function FeaturedProducts() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">
-            Temukan tanaman unggulan BioPlant Project yang dipilih dengan
+            Temukan tanaman unggulan Greenovative yang dipilih dengan
             kualitas terbaik untuk mempercantik rumah maupun ruang kerja Anda.
           </p>
         </div>

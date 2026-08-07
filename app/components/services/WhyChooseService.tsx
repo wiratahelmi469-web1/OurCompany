@@ -16,7 +16,7 @@ export default function WhyChooseService() {
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Mengapa Memilih Layanan BioPlant?
+            Mengapa Memilih Layanan Greenovative?
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">

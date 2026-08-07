@@ -1,6 +1,6 @@
 export const contactInfo = {
   phone: "+62 852-8619-7108",
-  email: "bioplantproject@gmail.com",
+  email: "greenovativecontact@gmail.com",
   address:
     "Jl. Kp. Kaliputih Jl.Setapak No.03, RT.03, Citayam, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16320",
 };

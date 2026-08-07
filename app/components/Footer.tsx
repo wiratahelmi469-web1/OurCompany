@@ -9,17 +9,17 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex flex-col items-center">
           <Image
-            src="/logos/bioplant.jpeg"
-            alt="BioPlant Project"
+            src="/logos/greenovative.jpg"
+            alt="Greenovative"
             width={90}
             height={90}
             className="rounded-full border-4 border-green-500 object-cover"
           />
 
-          <h2 className="mt-6 text-3xl font-bold">BioPlant Project</h2>
+          <h2 className="mt-6 text-3xl font-bold">Greenovative</h2>
 
           <p className="mt-4 max-w-xl text-center leading-7 text-gray-400">
-            BioPlant Project menyediakan tanaman hias premium, jasa landscape,
+            Greenovative menyediakan tanaman hias premium, jasa landscape,
             serta solusi penghijauan untuk rumah, kantor, dan area komersial.
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-6 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} BioPlant Project. Semua hak
+            © {new Date().getFullYear()} Greenovative. Semua hak
             dilindungi.
           </p>
         </div>

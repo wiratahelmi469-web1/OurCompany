@@ -18,7 +18,7 @@ export default function ProjectGallery() {
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
             Dokumentasi beberapa proyek landscape dan dekorasi tanaman yang
-            telah dikerjakan oleh BioPlant Project.
+            telah dikerjakan oleh Greenovative.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ export default function ProjectGallery() {
 
               <div>
                 <span className="rounded-full bg-green-600/20 px-4 py-2 text-sm font-semibold text-green-300">
-                  BioPlant Project
+                  Greenovative
                 </span>
 
                 <h3 className="mt-6 text-3xl font-bold text-white">

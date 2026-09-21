@@ -40,10 +40,10 @@ export const contactFaq = [
   {
     question: "Apakah saya bisa berkonsultasi sebelum membeli tanaman?",
     answer:
-      "Tentu. Tim BioPlant Project siap membantu Anda memilih tanaman yang sesuai dengan kebutuhan dan kondisi lingkungan.",
+      "Tentu. Tim Greenovative siap membantu Anda memilih tanaman yang sesuai dengan kebutuhan dan kondisi lingkungan.",
   },
   {
-    question: "Apakah BioPlant melayani proyek di luar kota?",
+    question: "Apakah Greenovative melayani proyek di luar kota?",
     answer:
       "Ya. Kami melayani proyek landscape dan pengiriman tanaman ke berbagai wilayah sesuai cakupan layanan kami.",
   },

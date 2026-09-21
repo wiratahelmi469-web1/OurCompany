@@ -21,7 +21,7 @@ export const workProcess = [
     number: "01",
     title: "Konsultasi",
     description:
-      "Diskusikan kebutuhan tanaman, taman, maupun dekorasi bersama tim BioPlant.",
+      "Diskusikan kebutuhan tanaman, taman, maupun dekorasi bersama tim Greenovative.",
   },
   {
     number: "02",

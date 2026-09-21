@@ -27,14 +27,14 @@ export default function GallerySection() {
 
             <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300">
               Lihat koleksi tanaman, greenhouse, proses perawatan, dan aktivitas
-              BioPlant Project.
+              Greenovative.
             </p>
           </div>
         </FadeUp>
 
         {/* Hero Image */}
 
-        <FadeUp delay={0.12}>
+        {/* <FadeUp delay={0.12}>
           <div className="group relative overflow-hidden rounded-3xl">
             <Image
               src="/images/gallery/Greenovative.jpg"
@@ -46,7 +46,7 @@ export default function GallerySection() {
 
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
           </div>
-        </FadeUp>
+        </FadeUp> */}
 
         {/* Small Gallery */}
 

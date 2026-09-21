@@ -13,7 +13,7 @@ export default function AboutSection() {
     <section className="bg-[#081C15] py-24 lg:py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2">
         {/* Image */}
-        <div className="overflow-hidden rounded-3xl">
+        {/* <div className="overflow-hidden rounded-3xl">
           <Image
             src="/images/company/about.jpg"
             alt="About BioPlant Project"
@@ -21,7 +21,7 @@ export default function AboutSection() {
             height={700}
             className="h-[380px] w-full rounded-3xl object-cover transition duration-700 hover:scale-105 lg:h-[620px]"
           />
-        </div>
+        </div> */}
 
         {/* Content */}
         <div>

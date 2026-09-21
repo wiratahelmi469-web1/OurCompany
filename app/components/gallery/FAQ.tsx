@@ -23,7 +23,7 @@ export default function FAQ() {
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">
             Berikut beberapa pertanyaan yang sering diajukan mengenai galeri,
-            nursery, dan layanan BioPlant Project.
+            nursery, dan layanan Greenovative.
           </p>
         </div>
 

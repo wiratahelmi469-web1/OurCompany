@@ -33,7 +33,7 @@ export default function WhyChooseUs() {
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
-            Mengapa Pelanggan Mempercayai BioPlant
+            Mengapa Pelanggan Mempercayai Greenovative?
           </h2>
         </div>
 

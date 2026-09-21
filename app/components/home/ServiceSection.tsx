@@ -55,7 +55,7 @@ export default function ServiceSection() {
 
         {/* Image */}
 
-        <FadeUp delay={0.18}>
+        {/* <FadeUp delay={0.18}>
           <div className="overflow-hidden rounded-3xl">
             <Image
               src="/images/services/team.jpg"
@@ -65,7 +65,7 @@ export default function ServiceSection() {
               className="h-[350px] lg:h-[600px] w-full object-cover transition duration-700 hover:scale-105"
             />
           </div>
-        </FadeUp>
+        </FadeUp> */}
       </div>
     </section>
   );

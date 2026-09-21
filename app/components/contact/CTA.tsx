@@ -29,18 +29,18 @@ export default function CTA() {
         </div>
 
         <span className="mt-8 inline-block text-sm font-semibold uppercase tracking-[5px] text-green-400">
-          Hubungi BioPlant
+          Hubungi Greenovative
         </span>
 
         <h2 className="mt-6 text-4xl font-bold leading-tight text-white md:text-6xl">
           Siap Berkembang
           <br />
-          Bersama BioPlant?
+          Bersama Greenovative?
         </h2>
 
         <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-300">
           Konsultasikan kebutuhan tanaman, landscape, maupun dekorasi ruang Anda
-          bersama tim BioPlant Project.
+          bersama tim Greenovative.
         </p>
 
         <div className="mt-12 flex flex-col justify-center gap-5 sm:flex-row">

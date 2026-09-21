@@ -80,7 +80,7 @@ export const whyBuyUs = [
   {
     title: "Dukungan Ramah",
     description:
-      "Tim BioPlant siap membantu konsultasi sebelum dan sesudah pembelian.",
+      "Tim Grenovative siap membantu konsultasi sebelum dan sesudah pembelian.",
   },
 ];
 

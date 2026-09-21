@@ -12,7 +12,7 @@ export default function ContactPage() {
     <>
       <PageHero
         title="Kontak"
-        subtitle="Kami ingin mendengar dari Anda. Hubungi BioPlant Project."
+        subtitle="Kami ingin mendengar dari Anda. Hubungi Greenovative."
         image="/images/contact/hero.jpg"
       />
 

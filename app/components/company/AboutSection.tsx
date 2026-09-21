@@ -15,7 +15,7 @@ export default function AboutSection() {
         {/* Image */}
         <div className="overflow-hidden rounded-3xl">
           <Image
-            src="/images/company/about2.jpg"
+            src="/images/company/about.jpg"
             alt="About BioPlant Project"
             width={900}
             height={700}

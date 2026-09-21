@@ -17,7 +17,7 @@ export default function AboutSection() {
         <FadeUp delay={0.1}>
           <div className="relative overflow-hidden rounded-3xl">
             <Image
-              src="/images/about/Greenovative.jpg"
+              src="/images/about/about2.jpg"
               alt="Greenovative"
               width={900}
               height={700}
